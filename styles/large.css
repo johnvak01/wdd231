@@ -1,0 +1,19 @@
+@media screen and (min-width:38rem){
+    header, main, nav, footer{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    #nav-btn{
+        display:none;
+    }
+    header{
+        grid-template-columns: 24px auto;
+    }
+    .navigation{
+        display: block;
+    }
+    .navigation ul{
+        flex-direction: row;
+    }
+}

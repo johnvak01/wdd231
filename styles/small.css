@@ -1,0 +1,179 @@
+:root {
+    --light-text: #ffffff;
+    --dark-text: #000000;
+    --prime-blue: #308080;
+    --accent-magenta: #c800c8;
+    --accent-vermillion: #FF8860;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/* Site Elements */
+body{
+    font-family: "Open Sans";
+}
+    /* Header */
+#logo {
+    width: 22px;
+    height: 22px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    column-gap: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    align-items: end;
+
+
+    color: var(--dark-text)
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+        /* nav classes */
+#nav-btn {
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.nav-ham::after {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.nav-ham.show::after {
+    content: "\00D7";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+/*  navigation bar formatting*/
+nav{
+    display: none;
+    
+    background-color: var(--prime-blue);
+    color: var(--light-text);
+    margin: 0.25rem;
+}
+.navigation.show{
+    display:block;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+}
+
+.navigation li {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 0.25rem;
+
+    border: 1px solid var(--light-text);
+}
+.navigation a{
+    color: var(--light-text);
+    text-decoration: none;
+    border-bottom: solid 1px var(--light-text);
+}
+.navigation a:visited{
+    color: var(--accent-vermillion);
+    border-bottom: var(--accent-vermillion);
+}
+
+
+.current-nav{
+    background-color: var(--accent-blue);
+}
+    /* Main Formatting */
+
+h1{
+    margin: 0.25rem;
+}
+
+section{
+    background-color: var(--accent-vermillion);
+    color: var(--light-text);
+    margin: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section *{
+    margin: 0.25rem;
+}
+
+h2{
+    background-color: var(--prime-blue);
+    margin: 0;
+    padding: 0.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#courses,#filters{
+    display: flex;
+    width: 100%;
+    padding: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#courses{
+    flex-direction: column;
+}
+.course{
+    width: 100%;
+}
+
+.filter, .course{
+    border: solid 1px var(--accent-magenta);
+    border-radius: 3px;
+    padding: 0.25rem;
+    background-color: var(--accent-magenta);
+}
+
+
+
+
+
+
+
+
+    /* Footer */
+        /* adjusting socials */
+
+/* #social img{
+    filter: brightness(0) saturate(100%) invert(17%) sepia(81%) saturate(4669%) hue-rotate(84deg) brightness(100%) contrast(130%);
+} */
+.social ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <meta name="description" content="Austin Hutchinson WDD231 Project ProjectName">
+  <title>ProjectName</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./images/logo.svg">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/small.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+  <script src="scripts/navigation.js" defer=""></script>
+  <script src="scripts/date.js" defer=""></script>
+  <script src="scripts/course.js" defer=""></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.svg" alt="site logo" width="89" height="89" id="logo">
+    <span>Austin Hutchinson</span>
+    <button id="nav-btn" class="nav-ham" aria-label="navigation"></button>
+  </header>
+  <nav id="nav-bar" class="navigation">
+    <ul>
+      <li class="current-nav"><a href="#">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Home</h1>
+    <section id="sec-about">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget fringilla massa. Duis id erat at nulla auctor efficitur non eget ipsum. Ut ac semper nibh. Etiam scelerisque velit urna, tincidunt gravida est vestibulum vel. Etiam tristique imperdiet urna, in blandit mi porta eu. Quisque eleifend mi et rhoncus facilisis. Pellentesque finibus metus lorem, sit amet rutrum dui convallis vitae.</p>
+    </section>
+    <section id="sec-photo">
+      <h2>Student Photo</h2>
+      <figure>
+        <img src="images/logo.svg" alt="My Photo" height="360", width="360">
+        <figcaption>It's Me!</figcaption>
+      </figure>
+    </section>
+    <section id="sec-courses">
+      <h2>Web Certificate Courses</h2>
+      <div id="filters">
+        <div class="filter">All</div>
+        <div class="filter">CSE</div>
+        <div class="filter">WDD</div>
+      </div>
+      <div id="courses">
+        <div class="course">CSE110</div>
+        <div class="course">WDD130</div>
+        <div class="course">CSE111</div>
+        <div class="course">CSE210</div>
+        <div class="course">WDD131</div>
+        <div class="course">WDD231</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="social">
+      <ul>
+        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" width="44" height="44"
+              class="svg" alt="E-Mail"></a></li>
+        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" width="44" height="44"
+              class="svg" alt="GitHub"></a></li>
+        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" width="44" height="44"
+              class="svg" alt="WordPress"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" width="44" height="44"
+              class="svg" alt="YouTube"></a></li>
+      </ul>
+    </div>
+    <p><span id="currentyear"></span> | J Austin Hutchinson | UT, USA</p>
+    <span id="lastModified"></span>
+  </footer>
+</body>
+
+</html>
