@@ -155,7 +155,6 @@ figcaption {
     color: var(--dark-text);
 }
 
-#courses,
 #filters {
     display: flex;
     width: 100%;
@@ -166,6 +165,11 @@ figcaption {
 }
 
 #courses {
+    display: flex;
+    width: 100%;
+    padding: 0.25rem;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
 }
