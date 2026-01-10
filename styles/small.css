@@ -146,10 +146,13 @@ h2 {
     width: 100%;
     text-align: center;
 }
-
+#sec-about p{
+    color: var(--dark-text);
+}
 figcaption {
     text-align: center;
     text-decoration: underline;
+    color: var(--dark-text);
 }
 
 #courses,
@@ -199,9 +202,14 @@ figcaption {
 }
 
 
+.completed::before{
+    content:"✓";
+}
 
-
-
+#credits{
+    margin: 0.25rem;
+    color: var(--dark-text); 
+}
 
 /* Footer */
 /* adjusting socials */

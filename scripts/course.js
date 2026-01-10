@@ -89,15 +89,19 @@ const filter_all = document.getElementById("filter-all");
 const filter_cse = document.getElementById("filter-cse");
 const filter_wdd = document.getElementById("filter-wdd");
 
+const span_credit = document.getElementById("credits");
+
 filter_all.addEventListener("click", () => {
-    console.log("all courses");
     updateCourses("ALL");
+    updateCredits("ALL");
 });
 filter_cse.addEventListener("click", () => {
-    updateCourses("CSE")
+    updateCourses("CSE");
+    updateCredits("CSE");
 });
 filter_wdd.addEventListener("click", () => {
-    updateCourses("WDD")
+    updateCourses("WDD");
+    updateCredits("WDD");
 });
 
 
@@ -132,5 +136,19 @@ function updateCourses(filter) {
     console.log(course_elements);
     course_list.innerHTML = course_elements;
 }
+function updateCredits(filter) {
+    let filtered_courses = []; 
+    for(const element of courses){
+        if(filter == "ALL" || element.subject == filter){
+            filtered_courses.push(element);
+        }
+    }
+    let credits = filtered_courses.reduce((total, element) => {
+        return total = total + Number(element.credits);
+    },0);
+    span_credit.innerHTML = `The total credits for course listed above is ${credits}`;
 
+}
 updateCourses("ALL");
+updateCredits("ALL");
+
