@@ -137,15 +137,15 @@ function updateCourses(filter) {
     course_list.innerHTML = course_elements;
 }
 function updateCredits(filter) {
-    let filtered_courses = []; 
-    for(const element of courses){
-        if(filter == "ALL" || element.subject == filter){
+    let filtered_courses = [];
+    for (const element of courses) {
+        if (filter == "ALL" || element.subject == filter) {
             filtered_courses.push(element);
         }
     }
     let credits = filtered_courses.reduce((total, element) => {
         return total = total + Number(element.credits);
-    },0);
+    }, 0);
     span_credit.innerHTML = `The total credits for course listed above is ${credits}`;
 
 }

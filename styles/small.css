@@ -146,9 +146,11 @@ h2 {
     width: 100%;
     text-align: center;
 }
-#sec-about p{
+
+#sec-about p {
     color: var(--dark-text);
 }
+
 figcaption {
     text-align: center;
     text-decoration: underline;
@@ -161,6 +163,7 @@ figcaption {
     padding: 0.25rem;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
 
 }
 
@@ -176,17 +179,10 @@ figcaption {
 
 .course {
     width: 100%;
-}
-
-.course {
     border: solid 1px var(--accent-magenta);
     border-radius: 3px;
     padding: 0.25rem;
     background-color: var(--accent-magenta);
-}
-
-#filters{
-    justify-content: space-around;
 }
 
 .filter {
@@ -206,13 +202,13 @@ figcaption {
 }
 
 
-.completed::before{
-    content:"✓";
+.completed::before {
+    content: "✓";
 }
 
-#credits{
+#credits {
     margin: 0.25rem;
-    color: var(--dark-text); 
+    color: var(--dark-text);
 }
 
 /* Footer */
