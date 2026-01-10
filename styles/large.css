@@ -1,6 +1,7 @@
 @media screen and (min-width:38rem){
     header, main, nav, footer{
         max-width: 900px;
+        width: 100%;
         margin: 0 auto;
     }
     
@@ -15,5 +16,17 @@
     }
     .navigation ul{
         flex-direction: row;
+    }
+    main{
+        display:grid;
+        grid-template-columns: 66% 33%;
+    }
+    main h1, #sec-courses{
+        grid-column: span 2;
+    }
+    
+    #courses{
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
