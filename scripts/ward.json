@@ -1,0 +1,22 @@
+{
+    "family-name": "smith", "move-in-date":"2026-01-01",
+    "record-number": 3,
+    "visited": true,
+    "members": [
+        {
+            "name":"John",
+            "gender": "Male",
+            "birthdate": "1981-01-01"
+        },
+        {
+            "name":"Jacob",
+            "gender": "Male",
+            "birthdate": "1982-02-02"
+        },
+        {
+            "name":"Julia",
+            "gender": "Female",
+            "birthdate": "1983-03-03"
+        }
+    ]
+}
