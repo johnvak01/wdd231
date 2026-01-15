@@ -3,24 +3,31 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Austin Hutchinson WDD231 Project Chamber of Commerce">
   <meta name="author" content="Austin hutchinson">
-  <meta property="og:title" content="title">
-  <meta property="og:description" content="Sentence describing Content">
+
+  <meta property="og:url" content="https://https://johnvak01.github.io/wdd231/chamber/directory">
+  <meta property="og:title" content="Directory">
+  <meta property="og:description" content="The Chamber of Commerce site for the city of Sandy,Utah.">
   <meta property="og:image" content="https://johnvak01.github.io/wdd231/images/logo.svg">
   <meta property="og:local" content="en_US">
-  
+
   <title>ProjectName</title>
   <link rel="icon" href="images/favicon.ico">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   
   <link href="styles/normalize.css" rel="stylesheet">
   <link href="styles/small.css" rel="stylesheet">
   <link href="styles/large.css" rel="stylesheet">
+  
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
   <script src="scripts/course.js" defer=""></script>
+  <script src="scripts/directory.js" defer=""></script>
 </head>
 
 <body>
@@ -38,17 +45,24 @@
     </ul>
   </nav>
   <main>
+    <h1>Directory</h1>
     <section>
-      <img id="here" src="logo.svg" width="320" height="180">
+      <!-- <img id="here" src="logo.svg" alt="default logo" width="320" height="180"> -->
+    </section>
+    <span id="cards"></span>
     </section>
   </main>
   <footer>
     <div class="social">
       <ul>
-        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" width="44" height="44" class="svg" ></a></li>
-        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" width="44" height="44"class="svg" ></a></li>
-        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" width="44" height="44"class="svg" ></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" width="44" height="44"class="svg" ></a></li>
+        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" width="44" height="44"
+              class="svg"></a></li>
+        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" width="44" height="44"
+              class="svg"></a></li>
+        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" width="44" height="44"
+              class="svg"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" width="44" height="44"
+              class="svg"></a></li>
       </ul>
     </div>
   </footer>

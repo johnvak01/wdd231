@@ -1,11 +1,59 @@
 {
+    "members":[
     {
-        "name":"",
-        "adresses":[""],
-        "phone":"",
-        "url":"",
-        "image":"",
-        "member": 1,
-
-    }
+        "name":"Cafe Anh Hong",
+        "adresses":["8650 S 1300 E, Sandy, UT 84094"],
+        "phone":"+1 801 486 1912",
+        "url":"http://www.cafeanhhong.com/",
+        "image":"images/cafe-anh-hong.png",
+        "tier": 1
+    },
+    {
+        "name":"Emiliano's Taco Shop",
+        "adresses":["8732 State St, Sandy, UT 84070"],
+        "phone":"+1 801 566 2985",
+        "url":"https://www.emilianostacoshop.com/",
+        "image":"images/emilianos-taco-shop.png",
+        "tier": 2
+    },
+    {
+        "name":"Tin Roof Grill",
+        "adresses":["9284 S 700 E, Sandy, UT 84070"],
+        "phone":"+1 80i 566 3931",
+        "url":"http://www.tinroofgrill.com/",
+        "image":"images/tin-roof-grill.jpg",
+        "tier": 1
+    },
+    {
+        "name":"Slackwater Sandy",
+        "adresses":["10290 S State St, Sandy, UT 84070"],
+        "phone":"+1 801 930 5147",
+        "url":"http://www.slackwaterpizzeria.com/",
+        "image":"images/slackwater.png",
+        "tier": 2
+    },
+    {
+        "name":"Potbelly",
+        "adresses":["130 W 10600 S Ste B, Sandy, UT 84070"],
+        "phone":"+18018581496",
+        "url":"https://www.potbelly.com/?olonwp=JjBtp_vMLk25gkYh_bnoiQ",
+        "image":"images/potbelly.webp",
+        "tier": 3
+    },
+    {
+        "name":"Olympus Burgers",
+        "adresses":["9326 S 700 E, Sandy, UT 84070"],
+        "phone":"+1 801 571 6868",
+        "url":"hhttp://olympusburgers.com/",
+        "image":"images/olympus-burger.jpg",
+        "tier": 1
+    },
+    {
+        "name":"Via 313",
+        "adresses":["150 10600 S South, Sandy, UT 84070"],
+        "phone":"+1 385 446 4313",
+        "url":"https://locations.via313.com/locations/105-w-southsandy/",
+        "image":"images/via313.png",
+        "tier": 1
+    }]
 }
