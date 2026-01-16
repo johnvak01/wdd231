@@ -18,12 +18,13 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
   <link href="styles/normalize.css" rel="stylesheet">
   <link href="styles/small.css" rel="stylesheet">
   <link href="styles/large.css" rel="stylesheet">
-  
+
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
   <script src="scripts/course.js" defer=""></script>
@@ -35,21 +36,26 @@
     <img src="images/favicon.ico" alt="site logo" width="89" height="89" id="logo">
     <span>Sandy Chamber of Commerce</span>
     <button id="nav-btn" class="nav-ham" aria-label="navigation"></button>
+    <nav id="nav-bar" class="navigation">
+      <ul>
+        <li class="current-nav"><a href="#">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav id="nav-bar" class="navigation">
-    <ul>
-      <li class="current-nav"><a href="#">Home</a></li>
-      <li><a href="#">Directory</a></li>
-      <li><a href="#">Join</a></li>
-      <li><a href="#">Discover</a></li>
-    </ul>
-  </nav>
   <main>
     <h1>Directory</h1>
     <section>
-      <!-- <img id="here" src="logo.svg" alt="default logo" width="320" height="180"> -->
+      <img id="hero-image" src="images/sandy-hero.png" alt="Sandy City Hall" width="320" height="180">
     </section>
-    <span id="cards"></span>
+    <section>
+      <div id="card-toggle">
+        <button id="button-card-list" type="button">List</button>
+        <button id="button-card-grid" type="button">Grid</button>
+      </div>
+      <div id="cards" class="grid-view"></div>
     </section>
   </main>
   <footer>
@@ -65,6 +71,8 @@
               class="svg"></a></li>
       </ul>
     </div>
+    <p><span id="currentyear"></span> | J Austin Hutchinson | UT, USA</p>
+    <span id="lastModified"></span>
   </footer>
 </body>
 

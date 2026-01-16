@@ -1,10 +1,18 @@
 :root {
     --light-text: #ffffff;
     --dark-text: #000000;
+    --prime-blue: #306060;
+    --accent-magenta: #980098;
+    --accent-vermillion: #FF8860;
+}
+
+/*:root {
+    --light-text: #ffffff;
+    --dark-text: #000000;
     --prime-blue: #263037;
     --accent-blue: #7290a5;
     --accent-red: #FFAAAA;
-}
+}*/
 
 * {
     margin: 0;
@@ -55,13 +63,17 @@ header img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
-/*  vigation bar formatting*/
-nav{
+
+/*  navigation bar formatting*/
+nav {
     display: none;
 }
-.navigation.show{
-    display:block;
+
+.navigation.show {
+    grid-column: span 3;
+    display: block;
 }
+
 
 .navigation ul {
     display: flex;
@@ -78,29 +90,108 @@ nav{
     display: grid;
     justify-content: center;
     padding: 0.25rem;
-
     border: 1px solid var(--dark-text);
 }
-.navigation a{
+
+.navigation a {
     color: var(--dark-text);
     text-decoration: none;
     border-bottom: solid 1px var(--dark-text);
 }
 
-.current-nav{
+.current-nav {
     background-color: var(--accent-blue);
 }
 
+#hero-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Organising Cards */
+#card-toggle {
+    display: grid;
+    grid-template-columns: 20% 28% 4% 28% 20%;
+    margin: 0.25rem;
+}
+
+#button-card-list {
+    grid-column: 2 / 3;
+
+}
+
+#button-card-grid {
+    grid-column: 4 / 5;
+}
+
+.card-member {
+    border: 1px solid var(--prime-blue);
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+    width: 90%;
+}
+
+.member-card-image {
+    width: 100%;
+    height: 25rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-member img {
+    width: 80%;
+    height: auto;
+}
+
+.card-member h4 {
+    font-size: 1rem;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-view .member-card-image {
+    display: none;
+}
+
+.list-view>.card-member {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.list-view h2 {
+    font-size: 1.25rem;
+}
+
+.list-view h3 {
+    font-size: 0.75rem;
+}
 
 /* adjustring socials */
 
 /* #social img{
     filter: brightness(0) saturate(100%) invert(17%) sepia(81%) saturate(4669%) hue-rotate(84deg) brightness(100%) contrast(130%);
 } */
-.social ul{
+.social ul {
     list-style-type: none;
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+footer {
+    text-align: center;
 }

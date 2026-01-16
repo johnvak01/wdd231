@@ -1,19 +1,32 @@
-@media screen and (min-width:38rem){
-    header, main, nav, footer{
+@media screen and (min-width:38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
         max-width: 900px;
         margin: 0 auto;
     }
-    
-    #nav-btn{
-        display:none;
+
+    #nav-btn {
+        display: none;
+        column-span: span 1;
     }
-    header{
-        grid-template-columns: 24px auto;
+
+    header {
+        grid-template-columns: 24px auto 250px;
     }
-    .navigation{
+
+    .navigation {
         display: block;
     }
-    .navigation ul{
+
+    .navigation ul {
         flex-direction: row;
+        margin: 0;
     }
+
+
+
+    
 }
