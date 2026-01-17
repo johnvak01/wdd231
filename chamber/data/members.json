@@ -5,7 +5,7 @@
         "adresses":["8650 S 1300 E, Sandy, UT 84094"],
         "phone":"+1 801 486 1912",
         "url":"http://www.cafeanhhong.com/",
-        "image":"images/cafe-anh-hong.png",
+        "image":"images/cafe-anh-hong.webp",
         "tier": 1
     },
     {
@@ -13,7 +13,7 @@
         "adresses":["8732 State St, Sandy, UT 84070"],
         "phone":"+1 801 566 2985",
         "url":"https://www.emilianostacoshop.com/",
-        "image":"images/emilianos-taco-shop.png",
+        "image":"images/emilianos-taco-shop.webp",
         "tier": 2
     },
     {
@@ -21,7 +21,7 @@
         "adresses":["9284 S 700 E, Sandy, UT 84070"],
         "phone":"+1 80i 566 3931",
         "url":"http://www.tinroofgrill.com/",
-        "image":"images/tin-roof-grill.jpg",
+        "image":"images/tin-roof-grill.webp",
         "tier": 1
     },
     {
@@ -29,7 +29,7 @@
         "adresses":["10290 S State St, Sandy, UT 84070"],
         "phone":"+1 801 930 5147",
         "url":"http://www.slackwaterpizzeria.com/",
-        "image":"images/slackwater.png",
+        "image":"images/slackwater.webp",
         "tier": 2
     },
     {
@@ -45,7 +45,7 @@
         "adresses":["9326 S 700 E, Sandy, UT 84070"],
         "phone":"+1 801 571 6868",
         "url":"hhttp://olympusburgers.com/",
-        "image":"images/olympus-burger.jpg",
+        "image":"images/olympus-burger.webp",
         "tier": 1
     },
     {
@@ -53,7 +53,7 @@
         "adresses":["150 10600 S South, Sandy, UT 84070"],
         "phone":"+1 385 446 4313",
         "url":"https://locations.via313.com/locations/105-w-southsandy/",
-        "image":"images/via313.png",
+        "image":"images/via313.webp",
         "tier": 1
     }]
 }

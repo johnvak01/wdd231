@@ -10,7 +10,6 @@
 
     #nav-btn {
         display: none;
-        column-span: span 1;
     }
 
     header {
@@ -26,7 +25,11 @@
         margin: 0;
     }
 
+    .navigation.show {
+        grid-column: span 1;
+    }
+}
 
 
-    
+
 }

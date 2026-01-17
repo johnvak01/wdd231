@@ -1,9 +1,9 @@
 :root {
     --light-text: #ffffff;
     --dark-text: #000000;
-    --prime-blue: #306060;
-    --accent-magenta: #980098;
-    --accent-vermillion: #FF8860;
+    --prime-green: #205020;
+    --accent-blue: #006060;
+    --accent-vermillion: #ffdbcf;
 }
 
 /*:root {
@@ -35,9 +35,11 @@ header {
     padding: 0.25rem 0.5rem;
     align-items: end;
 
-    border: 1px solid var(--prime-blue);
+    border-bottom: 1px solid var(--prime-green);
+    
+    background-color: var(--prime-green);
+    color: var(--light-text);
 
-    color: var(--dark-text)
 }
 
 header img {
@@ -48,7 +50,7 @@ header img {
 
 /* nav classes */
 #nav-btn {
-    background: none;
+    background-color: var(--light-text);
     border: 0px;
     cursor: pointer;
 }
@@ -81,7 +83,7 @@ nav {
     list-style-type: none;
     align-items: center;
 
-    padding: 0.25rem;
+    padding: 0 0.25rem;
     margin: 0.25rem 0;
 }
 
@@ -90,17 +92,23 @@ nav {
     display: grid;
     justify-content: center;
     padding: 0.25rem;
-    border: 1px solid var(--dark-text);
+    border-radius: 0.25rem;
+    background-color: var(--light-text);
+    color: var(--dark-text);
+    /* border: 1px solid var(--dark-text); */
 }
 
 .navigation a {
     color: var(--dark-text);
     text-decoration: none;
-    border-bottom: solid 1px var(--dark-text);
+}
+.navigation a:visited{
+    color: var(--accent-magenta);
 }
 
-.current-nav {
+.current-nav+li {
     background-color: var(--accent-blue);
+    color:var(--light-text);
 }
 
 #hero-image {
@@ -111,8 +119,18 @@ nav {
 /* Organising Cards */
 #card-toggle {
     display: grid;
-    grid-template-columns: 20% 28% 4% 28% 20%;
-    margin: 0.25rem;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0.25rem 0;
+    background-color: var(--prime-green);
+}
+
+#card-toggle button {
+    margin: 0.5rem;
+    padding: 0.25rem;
+    background-color: var(--accent-blue);
+    color: var(--light-text);
+    border: solid 2px var(--light-text);
+    border-radius: 0.25rem;
 }
 
 #button-card-list {
@@ -125,16 +143,26 @@ nav {
 }
 
 .card-member {
-    border: 1px solid var(--prime-blue);
+    background-color: var(--prime-green);
+    color:var(--light-text);
     padding: 1rem;
     text-align: center;
     margin: 1rem;
     width: 90%;
+    border-radius: 2rem;
 }
-
+.card-member a{
+    color: var(--light-text);
+}
+.card-member a:visited{
+    color: var(--accent-vermillion);
+}
+.card-member > h2{
+    border-bottom: 1px solid var(--accent-vermillion);
+}
 .member-card-image {
     width: 100%;
-    height: 25rem;
+    height: 18rem;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -153,7 +181,7 @@ nav {
 
 .grid-view {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .list-view {
@@ -169,6 +197,7 @@ nav {
 .list-view>.card-member {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    align-items: center;
 }
 
 .list-view h2 {
@@ -194,4 +223,10 @@ nav {
 
 footer {
     text-align: center;
+    border-top: 1px solid var(--prime-green);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+footer > *{
+    padding: 0.25rem;
 }
