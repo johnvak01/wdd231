@@ -50,8 +50,8 @@ const displayMembers = (members)=>{
         memberImage.setAttribute("src",member.image);
         memberImage.setAttribute("alt", `Logo of ${member.name}`);
         memberImage.setAttribute("loading","lazy");
-        memberImage.setAttribute("width", "88");
-        memberImage.setAttribute("height","88");
+        memberImage.setAttribute("width", "300");
+        memberImage.setAttribute("height","300");
         
 
 

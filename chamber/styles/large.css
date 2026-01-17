@@ -13,9 +13,8 @@
     }
 
     header {
-        grid-template-columns: 24px auto 250px;
+        grid-template-columns: 60px auto 250px;
     }
-
     .navigation {
         display: block;
     }
@@ -28,8 +27,4 @@
     .navigation.show {
         grid-column: span 1;
     }
-}
-
-
-
 }
