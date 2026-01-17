@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Site Elements */
@@ -143,6 +143,10 @@ nav {
     grid-column: 4 / 5;
 }
 
+#cards{
+    width: 100%;
+    min-height:30rem;
+}
 .card-member {
     background-color: var(--prime-green);
     color: var(--light-text);
