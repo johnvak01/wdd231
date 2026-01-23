@@ -107,7 +107,7 @@ nav {
     color: var(--accent-magenta);
 }
 
-.current-nav+li {
+li[class*="current-nav"] {
     background-color: var(--accent-vermillion);
     color: var(--dark-text);
 }
@@ -116,9 +116,12 @@ nav {
     position: relative;
 }
 
-#hero-image {
+#hero-image,.business-card img {
     width: 100%;
     height: auto;
+}
+.business-card img{
+    padding: 0.25rem;
 }
 
 #hero-call {
@@ -183,6 +186,7 @@ nav {
 
 #forecast-sec :not(h2){
     padding: 0.25rem;
+    font-size: 1rem;
 }
 
 #weather-sec ul,
@@ -200,6 +204,8 @@ nav {
     display: grid;
     grid-template-columns: 33% 67%;
     background-color: var(--accent-vermillion);
+    border-radius: 1rem;
+    margin: 0.25rem;
 }
 
 .business-card h3 {
@@ -211,6 +217,15 @@ nav {
 }
 .business-card :not(h3){
     margin: 0.25rem;
+}
+
+.business-card a{
+    margin: 0;
+    text-align: center;
+    color: var(--dark-text);
+}
+.business-card a:hover{
+    text-decoration: solid 2px underline;
 }
 
 /* Organising Cards */
