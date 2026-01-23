@@ -150,14 +150,14 @@ nav {
 
 #events-sec,
 #weather-sec,
-#forcast-sec {
+#forecast-sec {
     border: solid 1px var(--prime-green);
     margin: 0.25rem;
 }
 
 #events-sec h2,
 #weather-sec h2,
-#forcast-sec h2 {
+#forecast-sec h2 {
     width: 100%;
     background-color: var(--accent-blue);
     color: var(--light-text);
@@ -181,7 +181,7 @@ nav {
     grid-column: span 2;
 }
 
-#forcast-sec :not(h2){
+#forecast-sec :not(h2){
     padding: 0.25rem;
 }
 
