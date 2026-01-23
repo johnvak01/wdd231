@@ -15,6 +15,7 @@
     header {
         grid-template-columns: 60px auto 250px;
     }
+
     .navigation {
         display: block;
     }
@@ -26,5 +27,16 @@
 
     .navigation.show {
         grid-column: span 1;
+    }
+
+    #home-secs {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+
+    #businesses-sec {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        justify-content: space-between;
     }
 }

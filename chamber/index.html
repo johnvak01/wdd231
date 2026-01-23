@@ -25,7 +25,7 @@
 
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
-  <script src="scripts/directory.js" defer=""></script>
+  <script src="scripts/weather.js" defer=""></script>
 </head>
 
 <body>
@@ -35,24 +35,71 @@
     <button id="nav-btn" class="nav-ham" aria-label="navigation"></button>
     <nav id="nav-bar" class="navigation">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li class="current-nav"><a href="#">Directory</a></li>
+        <li class="current-nav"><a href="#">Home</a></li>
+        <li><a href="#">Directory</a></li>
         <li><a href="#">Join</a></li>
         <li><a href="#">Discover</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>Directory</h1>
-    <section>
-      <img id="hero-image" src="images/sandy-hero.webp" alt="Sandy City Hall" width="320" height="180" fetchpriority="high">
+    <h1>Home</h1>
+    <section id="hero-sec">
+      <img id="hero-image" src="images/sandy-hero.webp" alt="Sandy City Hall" width="320" height="180"
+        fetchpriority="high">
+      <div id="hero-call"><a href="#">Join Our Community</a></div>
     </section>
-    <section>
-      <div id="card-toggle">
-        <button id="button-card-list" type="button">List</button>
-        <button id="button-card-grid" type="button">Grid</button>
+    <div id="home-secs">
+      <section id="events-sec">
+        <h2>Events</h2>
+      </section>
+      <section id="weather-sec">
+        <h2>Current Weather</h2>
+        <img src="" alt="" width="44px" height="44px">
+        <ul>
+          <li>Partly Cloudy</li>
+          <li>High: 85°</li>
+          <li>Low: 85°</li>
+          <li>Humidity: 33%</li>
+          <li>Sunrise: 8:00 AM</li>
+          <li>Sunset: 10:00 PM</li>
+        </ul>
+      </section>
+      <section id="forcast-sec">
+        <h2>Weather Forcast</h2>
+        <h3>Today: <span>90°F</span></h3>
+        <h3>Wednesday: <span>90°F</span></h3>
+        <h3>Thursday: <span>90°F</span></h3>
+      </section>
+    </div>
+    <section id="businesses-sec">
+      <div class="business-card">
+        <h3>Business Name</h3>
+        <img src="" alt="" width="44px" height="44px">
+        <ul>
+          <li><span>EMAIL:</span> user@gmail.com</li>
+          <li><span>PHONE:</span> 800-555-1234</li>
+          <li><span>URL:</span> business.com</li>
+        </ul>
       </div>
-      <div id="cards" class="grid-view"></div>
+      <div class="business-card">
+        <h3>Business Name</h3>
+        <img src="" alt="" width="44px" height="44px">
+        <ul>
+          <li><span>EMAIL:</span> user@gmail.com</li>
+          <li><span>PHONE:</span> 800-555-1234</li>
+          <li><span>URL:</span> business.com</li>
+        </ul>
+      </div>
+      <div class="business-card">
+        <h3>Business Name</h3>
+        <img src="" alt="" width="44px" height="44px">
+        <ul>
+          <li><span>EMAIL:</span> user@gmail.com</li>
+          <li><span>PHONE:</span> 800-555-1234</li>
+          <li><span>URL:</span> business.com</li>
+        </ul>
+      </div>
     </section>
   </main>
   <footer>

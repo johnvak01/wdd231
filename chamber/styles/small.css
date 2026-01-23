@@ -112,9 +112,105 @@ nav {
     color: var(--dark-text);
 }
 
+#hero-sec {
+    position: relative;
+}
+
 #hero-image {
     width: 100%;
     height: auto;
+}
+
+#hero-call {
+    background-color: var(--prime-green);
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: fit-content;
+    padding: .5rem;
+    border-radius: 0.25rem;
+}
+
+#hero-call a {
+    color: var(--light-text);
+    text-decoration: underline;
+}
+
+#hero-call a:hover {
+    color: var(--accent-vermillion);
+    text-decoration: underline;
+}
+
+/* Home page elements */
+
+#home-secs {
+    display: flex;
+    flex-direction: column;
+}
+
+#events-sec,
+#weather-sec,
+#forcast-sec {
+    border: solid 1px var(--prime-green);
+    margin: 0.25rem;
+}
+
+#events-sec h2,
+#weather-sec h2,
+#forcast-sec h2 {
+    width: 100%;
+    background-color: var(--accent-blue);
+    color: var(--light-text);
+    padding: 0.25rem;
+    /* border-bottom: dashed 1px var(--accent-blue); */
+    margin: 0px;
+    margin-bottom: 0.25rem;
+}
+
+#weather-sec {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    justify-content: space-between;
+}
+#weather-sec img, .business-card img{
+    align-self: top;
+    justify-self: center;
+}
+
+#weather-sec h2 {
+    grid-column: span 2;
+}
+
+#forcast-sec :not(h2){
+    padding: 0.25rem;
+}
+
+#weather-sec ul,
+#businesses-sec ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#businesses-sec {
+    display: flex;
+    flex-direction: column;
+}
+
+.business-card {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    background-color: var(--accent-vermillion);
+}
+
+.business-card h3 {
+    grid-column: span 2;
+    text-align: center;
+    background-color: var(--accent-blue); 
+    color: var(--light-text);
+    width: 100%;   
+}
+.business-card :not(h3){
+    margin: 0.25rem;
 }
 
 /* Organising Cards */
@@ -143,10 +239,11 @@ nav {
     grid-column: 4 / 5;
 }
 
-#cards{
+#cards {
     width: 100%;
-    min-height:30rem;
+    min-height: 30rem;
 }
+
 .card-member {
     background-color: var(--prime-green);
     color: var(--light-text);
