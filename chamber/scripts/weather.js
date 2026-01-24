@@ -83,7 +83,7 @@ async function buildForecastCard() {
 
     forecast_header.innerText = "Forecast";
 
-    forecast_current.innerText = `in One Day: ${data.list[4].main.temp_max}°`;
+    forecast_current.innerText = `In One Day: ${data.list[4].main.temp_max}°`;
     forecast_tomorrow.innerText = `In Two Days: ${data.list[9].main.temp_max}°`;
     forecast_after.innerText = `in Three Days: ${data.list[14].main.temp_max}°`;
 
