@@ -206,6 +206,8 @@ li[class*="current-nav"] {
     background-color: var(--accent-vermillion);
     border-radius: 1rem;
     margin: 0.25rem;
+    justify-content:center;
+    align-items:start;
 }
 
 .business-card h3 {
@@ -213,7 +215,8 @@ li[class*="current-nav"] {
     text-align: center;
     background-color: var(--accent-blue); 
     color: var(--light-text);
-    width: 100%;   
+    width: 100%;
+    padding: 0.25rem;
 }
 .business-card :not(h3){
     margin: 0.25rem;
