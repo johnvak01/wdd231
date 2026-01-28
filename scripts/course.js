@@ -88,6 +88,7 @@ course_list.innerHTML = "";
 const filter_all = document.getElementById("filter-all");
 const filter_cse = document.getElementById("filter-cse");
 const filter_wdd = document.getElementById("filter-wdd");
+const courseDetails = document.getElementById("course-details");
 
 const span_credit = document.getElementById("credits");
 
@@ -103,7 +104,6 @@ filter_wdd.addEventListener("click", () => {
     updateCourses("WDD");
     updateCredits("WDD");
 });
-
 
 
 
@@ -152,3 +152,20 @@ function updateCredits(filter) {
 updateCourses("ALL");
 updateCredits("ALL");
 
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+      <button id="closeModal">❌</button>
+      <h2>${course.subject} ${course.number}</h2>
+      <h3>${course.title}</h3>
+      <p><strong>Credits</strong>: ${course.credits}</p>
+      <p><strong>Certificate</strong>: ${course.certificate}</p>
+      <p>${course.description}</p>
+      <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+    });
+}
