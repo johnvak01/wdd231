@@ -310,7 +310,7 @@ li[class*="current-nav"] {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.list-view {
+.list-view,#thanks {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,7 +482,11 @@ dialog::backdrop{
     right: 0.5rem;  
 }
 
-#join-card{
+
+#join-thanks{
     border: 2px solid var(--prime-green);
     filter: drop-shadow(2px, 2px, 2px, var(--accent-vermillion));
+    margin: 0.25rem;
+    padding: 0.25rem;
+    width: fit-content;
 }
