@@ -49,44 +49,72 @@
                 fetchpriority="high">
             <div id="hero-call"><a href="#">Join Our Community</a></div>
         </div>
-        <section id="join-form">
-            <h2>Join Us!</h2>
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Join the Sandy Chamber of Commerce</legend>
-                    <!-- Fields -->
-                    <label>First Name<span class="required_asterisk">*</span>
-                        <input type="text" name="name-first" placeholder="John" autocomplete="given-name" title="Your given name"
-                            required></label>
-                    <label>Last Name<span class="required_asterisk">*</span>
-                        <input type="text" name="name-last" placeholder="Doe" autocomplete="family-name" title = "Your family name" required></label>
-                    <label>Organizational Title<span class="required_asterisk">*</span>
-                        <input type="text" name="title-position" placeholder="" autocomplete="organization-title" title="Your position's title" required></label>
-                    <label>Email<span class="required_asterisk">*</span>
-                        <input type="email" name="email" placeholder="John" autocomplete="email" title="Your contact email" required></label>
-                    <label>Phone<span class="required_asterisk">*</span>
-                        <input type="tel" name="phone" placeholder="John" autocomplete="mobile" title="Your contact phone number(mobile)" required></label>
-                    <label>Organization Name<span class="required_asterisk">*</span>
-                        <input type="text" name="org-name" placeholder="John" autocomplete="organization" title="Your organization's name" required></label>
-                    <label>Organization Description<span class="required_asterisk">*</span>
-                        <input type="text" name="title-position" placeholder="John" required></label>
-                    <label>Organization Description<span class="required_asterisk">*</span>
-                        <textarea name="org-description" title="A brief desctiption of your organization"></textarea>
-                    </label>
-                    <label>Membership Tier<span class="required_asterisk">*</span>
-                        <select name="tier" id="form_tier" required>
-                            <option disabled selected value="">Select a Tier ...</option>
-                            <option value="np">NP membership</option>
-                            <option value="bronze">Bronze Membership</option>
-                            <option value="silver">Silver membership</option>
-                            <option value="gold">Gold Membership</option>
-                        </select></label>
-                    <div class="button-div">
-                        <button type="submit" id="button_save">Save Character</button>
-                        <input type="button" name="randomize" value="Randomize Character" id="button_rand"></input>
-                    </div>
-                </fieldset>
-        </section>
+        <div id="join-content">
+            <section id="join-form">
+                <h2>Join Form</h2>
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <!-- Fields -->
+                        <label>First Name
+                            <input type="text" name="name-first" placeholder="John" autocomplete="given-name"
+                                title="Your given name" required></label>
+                        <label>Last Name
+                            <input type="text" name="name-last" placeholder="Doe" autocomplete="family-name"
+                                title="Your family name" required></label>
+                        <label>Organizational Title
+                            <input type="text" name="title-position" placeholder="" autocomplete="organization-title"
+                                title="Your position's title" required></label>
+                        <label>Email
+                            <input type="email" name="email" placeholder="John" autocomplete="email"
+                                title="Your contact email" required></label>
+                        <label>Phone
+                            <input type="tel" name="phone" placeholder="John" autocomplete="mobile"
+                                title="Your contact phone number(mobile)" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Info</legend>
+                        <label>Membership Tier
+                            <select name="tier" id="form_tier" required>
+                                <option disabled selected value="">Select a Tier ...</option>
+                                <option value="np">NP membership</option>
+                                <option value="bronze">Bronze Membership</option>
+                                <option value="silver">Silver membership</option>
+                                <option value="gold">Gold Membership</option>
+                            </select></label>
+                        <label>Organization Name
+                            <input type="text" name="org-name" placeholder="John" autocomplete="organization"
+                                title="Your organization's name" required></label>
+                        <label>Organization Description
+                            <input type="text" name="title-position" placeholder="John" required></label>
+                        <label>Organization Description
+                            <textarea name="org-description"
+                                title="A brief desctiption of your organization"></textarea>
+                        </label>
+                    </fieldset>
+                        <button type="submit" id="button_save">Send Request</button>
+            </section>
+            <section id="membership-tiers">
+                <h2>Membership Tiers</h2>
+                <div class="membership-tier np-tier">
+                    <h3>Non-Profit Membership Tier</h3>
+                    <div class="learn-more-button">Learn more</div>
+                </div>
+                <div class="membership-tier bronze-tier">
+                    <h3>Bronze Membership Tier</h3>
+                    <div class="learn-more-button">Learn More</div>
+                </div>
+                <div class="membership-tier silver-tier">
+                    <h3>Silver Membership Tier</h3>
+                    <div class="learn-more-button">Learn More</div>
+                </div>
+                <div class="membership-tier gold-tier">
+                    <h3>Gold Membership Tier</h3>
+                    <div class="learn-more-button">Learn More</div>
+                </div>
+            </section>
+
+        </div>
     </main>
     <footer>
         <div class="social">

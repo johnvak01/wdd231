@@ -180,7 +180,7 @@ li[class*="current-nav"] {
     justify-self: center;
 }
 
-#weather-sec h2 {
+#weather-sec h2{
     grid-column: span 2;
 }
 
@@ -353,4 +353,73 @@ footer {
 
 footer>* {
     padding: 0.25rem;
+}
+/* Join Page Specific */
+#join-content {
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+#join-content fieldset{
+    margin: 0.25rem;
+    width: 100%;
+}
+#join-form form, #membership-tiers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#join-form label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.25rem;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form select,
+form input[type="text"], textarea{
+    width: 120px;
+    padding: 0.25rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin: 0.25rem;
+    justify-self: end;
+}
+form textarea {
+    height: 8rem;
+}
+form button{
+    margin: 0.25rem;
+    padding: 0.25rem 2rem;
+}
+#membership-tiers h2{
+    align-self: start;
+}
+.membership-tier{
+    border: 1px solid var(--accent-blue);
+    border-radius: 0.25rem 1rem;
+    width: 100%;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.np-tier{
+    background-color: var(--accent-vermillion);
+}
+.bronze-tier{
+    background-color: orange;
+}
+.silver-tier{
+    background-color: silver;
+}
+.gold-tier{
+    background-color: gold;
 }

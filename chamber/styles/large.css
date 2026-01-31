@@ -42,4 +42,10 @@
     #events-sec h2{
         grid-column: span 3;
     }
+    #join-content{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        justify-content: space-evenly;
+        margin: 0.25rem;
+    }
 }
