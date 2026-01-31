@@ -54,7 +54,8 @@ function hideModal(){
     modal.innerHTML="";
 }
 
-
+let now = moment().format('YYYY-MM-DD HH:mm:ss');
+document.getElementById("timestamp").value = now;
 
 
 
