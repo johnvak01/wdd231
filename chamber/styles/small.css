@@ -179,7 +179,6 @@ li[class*="current-nav"] {
     justify-content: space-between;
 }
 #weather-sec img, .business-card img{
-    align-self: top;
     justify-self: center;
 }
 
