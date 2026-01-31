@@ -1,0 +1,28 @@
+{
+    "data":[
+        {
+            "tier_number": 1,
+            "tier_name":"Gold",
+            "cost_per_month": 100000,
+            "benefits":"Front page spotlight, 10 tickets to our yearly ball, priority access to our hotline, and a yearly 30 minute one-on-one with the mayor"
+        },
+        {
+            "tier_number": 2,
+            "tier_name":"Silver",
+            "cost_per_month": 20000,
+            "benefits":"Front page spotlight, 5 tickets to our yearly ball, and priority access to our hotline"
+        },
+        {
+            "tier_number": 3,
+            "tier_name":"Bronze",
+            "cost_per_month": 3000,
+            "benefits":"2 tickets to our yearly ball, and access to our hotline"
+        },
+        {
+            "tier_number": 4,
+            "tier_name":"Non-Profit",
+            "cost_per_month": 0,
+            "benefits":"Access to our hotline"
+        }
+    ]
+}
