@@ -484,7 +484,9 @@ dialog::backdrop{
 
 #join-thanks{
     border: 2px solid var(--prime-green);
-    filter: drop-shadow(2px, 2px, 2px, var(--accent-vermillion));
+    filter: drop-shadow(2px 2px var(--accent-vermillion));
+    background-color: var(--accent-blue);
+    color: var(--light-text);
     margin: 0.25rem;
     padding: 0.25rem;
     width: fit-content;
