@@ -56,7 +56,7 @@ function hideModal(){
 
 let now = new Date();
 
-document.getElementById("timestamp").value = now.format('YYYY-MM-DD HH:mm:ss');
+document.getElementById("timestamp").value = now.toISOString();
 
 
 
