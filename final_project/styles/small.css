@@ -1,0 +1,114 @@
+:root {
+    --light-text: #eeeeee;
+    --dark-text: #111111;
+    --primary: #7F00FF;
+    --secondary: #00FFFF;
+    --accent-1: #ff4000;
+    --accent-2: #ffff00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+/* Site Elements */
+
+#logo {
+    width: 22px;
+    height: 22px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    column-gap: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    align-items: end;
+
+    border: 1px solid var(--primary);
+
+    color: var(--dark-text)
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* nav classes */
+#nav-btn {
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.nav-ham::after {
+    content: "\2630";
+    font-size: 1.5rem;
+}
+
+.nav-ham.show::after {
+    content: "\00D7";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+/*  vigation bar formatting*/
+nav{
+    display: none;
+    background-color: var(--primary);
+}
+.navigation.show{
+    display:block;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+
+    padding: 0.25rem;
+    margin: 0.25rem 0;
+}
+
+.navigation li {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding: 0.25rem;
+
+    border: 1px solid var(--dark-text);
+    background-color: var(--light-text);
+}
+.navigation a{
+    color: var(--dark-text);
+    text-decoration: none;
+    border-bottom: solid 1px var(--dark-text);
+    text-decoration: underline var(--light-text);
+}
+.navigation a:visited{
+    color: var(--accent-1);
+    text-decoration: underline var(--accent-1);
+
+}
+li[class="current-nav"]{
+    background-color: var(--secondary);
+}
+
+
+/* adjustring socials */
+
+/* #social img{
+    filter: brightness(0) saturate(100%) invert(17%) sepia(81%) saturate(4669%) hue-rotate(84deg) brightness(100%) contrast(130%);
+} */
+.social ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
