@@ -1,19 +1,45 @@
-@media screen and (min-width:38rem){
-    header, main, nav, footer{
+@media screen and (min-width:38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
         max-width: 900px;
         margin: 0 auto;
     }
-    
-    #nav-btn{
-        display:none;
+
+    main {
+        margin-bottom: 0.25rem;
     }
-    header{
+
+    #nav-btn {
+        display: none;
+    }
+
+    header {
         grid-template-columns: 24px auto;
     }
-    .navigation{
+
+    .navigation {
         display: block;
     }
-    .navigation ul{
+
+    .navigation ul {
         flex-direction: row;
     }
+
+    #plan-wireframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #plan-wireframes h2 {
+        grid-column: span 2;
+    }
+    #plan-wireframes img{
+        justify-self: center;
+    }
+
 }
