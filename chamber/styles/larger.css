@@ -1,0 +1,24 @@
+@media screen and (min-width:64rem) {header,
+    main,
+    nav,
+    footer {
+        max-width: none;
+        margin: 0 auto;
+    } 
+    #locations-sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .location-card {
+        grid-template-areas:
+            "name name"
+            "figure figure"
+            "desc address"
+            "btn btn";
+            justify-content: space-evenly;
+    }
+    .location-card *{
+        width: auto;
+    }
+}

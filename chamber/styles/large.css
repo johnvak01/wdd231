@@ -48,4 +48,15 @@
         justify-content: space-evenly;
         margin: 0.25rem;
     }
+    .location-card{
+        max-width: none;
+        width: 100%;
+        margin: 0.25rem;
+        justify-items: center;
+        grid-template-areas: 
+            "name name"
+            "figure desc"
+            "figure address"
+            "btn btn";
+    }
 }

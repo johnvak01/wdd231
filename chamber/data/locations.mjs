@@ -21,7 +21,7 @@ const location_data = {
         {
             "image":"hale-theater.webp",
             "name":"Hale Center Theater",
-            "address":"address",
+            "address":"9900 S Monroe St, Sandy, UT 84070",
             "description":"A closed air venue for the fine performing arts."
         },
         {

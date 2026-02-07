@@ -22,9 +22,11 @@
   <link href="styles/normalize.css" rel="stylesheet">
   <link href="styles/small.css" rel="stylesheet">
   <link href="styles/large.css" rel="stylesheet">
+  <link href="styles/larger.css" rel="stylesheet">
 
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
+  <script src="scripts/discover.js" type="module" defer=""></script>
 </head>
 
 <body>
@@ -42,7 +44,8 @@
     </nav>
   </header>
   <main>
-    <h1>Home</h1>
+    <h1>Discover</h1>
+    <p id="welcome-msg"></p>
     <div id="hero-sec">
       <img id="hero-image" src="images/sandy-hero.webp" alt="Sandy City Hall" width="320" height="180"
         fetchpriority="high">
@@ -50,27 +53,8 @@
     </div>
     <div id="discover-secs">
       <section id="locations-sec">
-        <h2>Events</h2>
-        <div class="location-card">
-          <h3>Location Title</h3>
-          <figure>
-            <img src="" alt="" width="300" height="200">
-            <figcaption>location</figcaption>
-          </figure>
-          <address>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, totam
-            necessitatibus fuga illum minima distinctio rerum quia! Voluptatum, pariatur dolorum placeat rem labore,
-            veritatis reprehenderit ratione in sed nam atque ipsa repudiandae neque beatae debitis eaque, accusamus cum
-            maxime illum error dolores. Repudiandae quisquam possimus beatae rem reiciendis minus.</address>
-          <p class="location-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellat, totam
-            necessitatibus fuga illum minima distinctio rerum quia! Voluptatum, pariatur dolorum placeat rem labore,
-            veritatis reprehenderit ratione in sed nam atque ipsa repudiandae neque beatae debitis eaque, accusamus cum
-            maxime illum error dolores. Repudiandae quisquam possimus beatae rem reiciendis minus.</p>
-          <button class="location-learn">Learn more</button>
-        </div>
       </section>
     </div>
-    <section id="businesses-sec">
-    </section>
   </main>
   <footer>
     <div class="social">
