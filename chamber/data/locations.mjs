@@ -34,19 +34,19 @@ const location_data = {
             "image":"sego-lily.webp",
             "name":"Sego Lily Gardens",
             "address":"1472 Sego Lily Dr, Sandy, UT 84092",
-            "description":"description"
+            "description":"A local botanical garden showing the beauty of low water use plants."
         },
         {
-            "image":"source",
-            "name":"name",
-            "address":"address",
-            "description":"description"
+            "image":"nickelcade.webp",
+            "name":"Sandy Nickelcade",
+            "address":"798 E 9400 S, Sandy, UT 84094address",
+            "description":"The local nickel-arcade."
         },
         {
-            "image":"source",
-            "name":"name",
-            "address":"address",
-            "description":"description"
+            "image":"expo-center.webp",
+            "name":"Mountain America Expo Center",
+            "address":"9575 State St, Sandy, UT 84070",
+            "description":"Rentable venue for large events."
         },
     ]
 };
