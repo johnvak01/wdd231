@@ -490,3 +490,34 @@ dialog::backdrop{
     padding: 0.25rem;
     width: fit-content;
 }
+
+/* discover page */
+/* #discover-locations{
+    display: grid;
+    grid-template-areas: "a b" "c d" "e f" "g h";
+}
+
+#discover-locations:nth-child(1){
+    grid-area: a;
+}
+#discover-locations:nth-child(2){
+    grid-area: a;
+}
+#discover-locations:nth-child(3){
+    grid-area: a;
+}
+#discover-locations:nth-child(4){
+    grid-area: a;
+}
+#discover-locations:nth-child(5){
+    grid-area: a;
+}
+#discover-locations:nth-child(6){
+    grid-area: a;
+}
+#discover-locations:nth-child(7){
+    grid-area: a;
+}
+#discover-locations:nth-child(8){
+    grid-area: a;
+} */
