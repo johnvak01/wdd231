@@ -1,0 +1,20 @@
+{
+    "articles":[
+      {
+        "id": 0,
+        "title":"Article Title",
+        "sub-title": "Article Sub-title",
+        "content": "Lorem ipsum dolor ..."
+      }  
+    ],
+    "products":[
+        {
+            "id": 0,
+            "name": "Product Name",
+            "description":"loerm ipsum dolor...",
+            "price": 0.10,
+            "rating": 5,
+            "stock": 5
+        }
+    ]    
+}

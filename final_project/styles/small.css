@@ -92,8 +92,6 @@ nav {
 
 .navigation a {
     color: var(--dark);
-    text-decoration: none;
-    border-bottom: solid 1px var(--dark);
 }
 
 .navigation a:visited {
@@ -105,7 +103,6 @@ nav {
 
 .navigation a:hover {
     color: var(--accent-2);
-    border-bottom: solid 1px var(--accent-2);
 
 }
 
@@ -144,10 +141,10 @@ h3 {
     text-align: center;
 }
 
-#plan-wireframes {
+#plan-wireframes, #site-pitch{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -182,4 +179,32 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#hero-sec{
+    position: relative;
+}
+#hero-sec img{
+    width: 100%;
+    height: auto;
+}
+#hero-call{
+    position: absolute;
+    top: 1rem;
+    left: 4rem;
+    background-color: var(--light);
+    padding: 0.25rem;
+    border: 3px solid var(--grey);
+    border-radius: 3px;
+}
+
+a{
+    color: var(--accent-1);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: var(--accent-2);
 }

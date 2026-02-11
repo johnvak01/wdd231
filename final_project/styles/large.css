@@ -28,11 +28,12 @@
         flex-direction: row;
     }
 
-    #plan-wireframes {
+    #plan-wireframes,#site-pitch {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
+        align-items: start;
         justify-content: center;
+        gap: 0.5rem;
     }
 
     #plan-wireframes h2 {

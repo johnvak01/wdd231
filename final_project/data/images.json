@@ -1,0 +1,109 @@
+{
+    "images":[
+      {
+        "id": 0,
+        "name":"Generic Clothes",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/clothes.webp"
+      }, 
+      {
+        "id": 1,
+        "name":"Converse-Style Sneakers",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/converse.webp"
+      }, 
+      {
+        "id": 2,
+        "name":"Dress",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/Dress.webp"
+      }, 
+      {
+        "id": 3,
+        "name":"Hoodie",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/hoodie.webp"
+      }, 
+      {
+        "id": 4,
+        "name":"Ponco",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/poncho.webp"
+      }, 
+      {
+        "id": 5,
+        "name":"Rubber Boots",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/Rubber Boot.webp"
+      }, 
+      {
+        "id": 6,
+        "name":"Shorts",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/shorts.webp"
+      }, 
+      {
+        "id": 7-,
+        "name":"Sleeveless Top",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/sleeveless-top.webp"
+      }, 
+      {
+        "id": 8,
+        "name":"Visored Helm",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/visored-helm.webp"
+      }, 
+      {
+        "id": 9,
+        "name":"VR Headset",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/vr-headset.webp"
+      }, 
+      {
+        "id": 10,
+        "name":"Walking Boots",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/walking-boot.webp"
+      }, 
+      {
+        "id": 11,
+        "name":"Western Hat",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/western-hat.webp"
+      }, 
+      {
+        "id": 12,
+        "name":"Mittens",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/winter-gloves.webp"
+      }, 
+      {
+        "id": 13,
+        "name":"Winter Hat",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/winter-hat.webp"
+      }, 
+      {
+        "id": 14,
+        "name":"Clogs",
+        "height": 510,
+        "width": 510,
+        "source": "images/catalogue/wooden-clogs.webp"
+      } 
+    ]
+}
