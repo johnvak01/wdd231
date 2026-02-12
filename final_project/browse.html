@@ -76,6 +76,26 @@
       <img src="images/wireframe-doc.webp" alt="Output Wireframe" width="280" height="140">
       <img src="images/wireframe-mobile.webp" alt="Mobile Wireframe" width="280" height="140">
     </section>
+    <form action="browse.html" method="get" onsubmit="return saveEntry()">
+        <fieldset class="form-article">
+          <legend>Article Entry</legend>
+          <label>Article Title
+            <input type="text" name="article-title" placeholder="Title..." title="Your Article's Title"
+              required></label>
+          <label>Article Sub-title
+            <input type="text" name="article-sub-title" placeholder="Sub-Title..." title="Your Article's Sub-Title"
+              required></label>
+          <label>Article Authorship
+            <input type="text" name="article-author" placeholder="Author-name..." title="Your Article's Title"
+              required></label>
+          <label>Article Content
+            <textarea type="text" name="article-content" placeholder="Article Content" title="Your Article's Content"
+              required></textarea></label>
+          <input hidden type="number" name="id-number" id="id-number">
+        </fieldset>
+        <button type="button" id="button-preview">Preview Entry</button>
+        <button type="submit" id="button-preview">Save Entry</button>
+      </form>
   </main>
   <footer>
     <div class="social">

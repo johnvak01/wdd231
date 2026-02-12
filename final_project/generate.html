@@ -26,6 +26,7 @@
 
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
+  <script src="scripts/generate.js" defer=""></script>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
   <nav id="nav-bar" class="navigation">
     <ul>
       <li><a href="index.html">Index</a></li>
-      <li class="current-nav" ><a href="generate.html">Generate</a></li>
+      <li class="current-nav"><a href="generate.html">Generate</a></li>
       <li><a href="browse.html">Browse</a></li>
     </ul>
   </nav>
@@ -47,34 +48,55 @@
       <p>Optional domain name: rpg-gen.com</p>
       <p>This site provides generators for pre-formatted handouts for use in a TTRPG campaign.</p>
     </div>
-    <section>
-      <h2>Make a Generator</h2>
-      <form>
-        <legend></legend>
+    <section id="sec-form">
+      <h2>Make An Article</h2>
+      <form action="browse.html" method="get" onsubmit="return saveEntry()">
+        <fieldset class="form-article">
+          <legend>Article Entry</legend>
+          <label>Article Title
+            <input type="text" id="article-title" placeholder="Title..." title="Your Article's Title"
+              required></label>
+          <label>Article Sub-title
+            <input type="text" id="article-sub-title" placeholder="Sub-Title..." title="Your Article's Sub-Title"
+              required></label>
+          <label>Article Authorship
+            <input type="text" id="article-author" placeholder="Author-name..." title="Your Article's Title"
+              required></label>
+          <label>Article Content
+            <textarea type="text" id="article-content" placeholder="Article Content" title="Your Article's Content"
+              required></textarea></label>
+          <input hidden type="number" name="id-number" id="id-number">
+        </fieldset>
+        <button type="button" id="button-preview">Preview Entry</button>
+        <button type="submit" id="button-preview">Save Entry</button>
       </form>
-   </section>
+    </section>
   </main>
   <footer>
     <div class="social">
       <ul>
-        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" alt="github" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" alt="wordpress" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="youtube" width="44" height="44"
-              class="svg"></a></li>
+        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="44"
+              height="44" class="svg"></a></li>
+        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" alt="github" width="44"
+              height="44" class="svg"></a></li>
+        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" alt="wordpress"
+              width="44" height="44" class="svg"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="youtube" width="44"
+              height="44" class="svg"></a></li>
       </ul>
     </div>
     <p><span id="currentyear"></span> | J Austin Hutchinson | UT, USA</p>
     <span id="lastModified"></span>
   </footer>
   <dialog>
-    
+    <h2>Article Title</h2>
+    <h3>Subtitle</h3>
+    <h4>Author</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolor aliquam nulla assumenda excepturi
+      quam.</p>
+    <div id="modal-close">X</div>
+
   </dialog>
 </body>
 
 </html>
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, molestias?

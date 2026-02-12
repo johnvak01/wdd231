@@ -4,6 +4,7 @@
         "id": 0,
         "title":"Article Title",
         "sub-title": "Article Sub-title",
+        "author": "Article Name",
         "content": "Lorem ipsum dolor ..."
       }  
     ],
