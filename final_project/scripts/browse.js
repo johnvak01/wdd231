@@ -1,21 +1,6 @@
+import apiFetch from "./apiFetch.mjs";
 const form_articles = document.getElementById("form-articles");
 // load in Articles
-
-async function apiFetch(url) {
-    try {
-        const response = await fetch(url);
-        if (response.ok) {
-            const data = await response.json();
-            // console.log(data);
-            return data;
-        } else {
-            throw Error(await response.text());
-        }
-    } catch (error) {
-        console.log(error);
-    }
-
-}
 
 async function loadArticles(){
     form_articles.innerHTML="";
