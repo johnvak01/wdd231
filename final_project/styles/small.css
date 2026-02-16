@@ -285,6 +285,7 @@ legend{
     border: 1px solid var(--accent-1);
     margin: 0.25rem 0;
     padding: 0.25rem;
+    border-radius: 0.25rem;
 }
 
 #article-layout{
