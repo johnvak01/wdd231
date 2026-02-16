@@ -26,7 +26,7 @@
 
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
-  <script type="module" src="scripts/browse.js" defer=""></script>
+  <script type="module" src="scripts/browse.js"></script>
 </head>
 
 <body>
@@ -48,14 +48,14 @@
       <p>Optional domain name: rpg-gen.com</p>
       <p>This site provides generators for pre-formatted handouts for use in a TTRPG campaign.</p>
     </div>
-    <section id="">
+    <section>
       <h2>Formatting</h2>
       <form action="final.html" method="get" onsubmit="return verifySelection()">
         <fieldset id="form-newspaper">
           <legend>Article Entry</legend>
           <label>Sheet Layout
             <select name="select-layout" id="select-layout" required>
-              <option value="0" disabled selected>Choose a page layout</option>
+              <option disabled selected>Choose a page layout</option>
               <option value="1">1 Article Layout</option>
               <option value="15">15 Article Layout</option>
             </select>

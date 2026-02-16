@@ -216,10 +216,12 @@ a:visited{
     grid-template-columns: 1fr 1fr;
     margin: 0.25rem;
 }
-#form-gen input, #form-gen textarea{
+#form-gen input, #form-gen textarea,#form-gen button{
     width: 100%;
     padding: 0.25rem;
+    margin: 0.25rem;
 }
+
 /* modal basic */
 
 dialog {
