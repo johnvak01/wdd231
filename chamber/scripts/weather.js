@@ -81,11 +81,11 @@ async function buildForecastCard() {
     const forecast_tomorrow = document.createElement("h3");
     const forecast_after = document.createElement("h3");
 
-    forecast_header.innerText = "Forecast";
 
     forecast_current.innerText = `In One Day: ${data.list[4].main.temp_max}°`;
     forecast_tomorrow.innerText = `In Two Days: ${data.list[9].main.temp_max}°`;
     forecast_after.innerText = `in Three Days: ${data.list[14].main.temp_max}°`;
+    forecast_header.innerText = "Forecast";
 
     // put it together
     forecast_sec.innerHTML = ``;

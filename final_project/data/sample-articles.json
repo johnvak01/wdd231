@@ -1,0 +1,113 @@
+{
+    "articles":[
+      {
+        "id": "samp-0",
+        "title":"Man vs Man",
+        "sub_title": "A Conflict of Brothers",
+        "author": "Mr. Miyagi",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-1",
+        "title":"Man vs Self",
+        "sub_title": "A personal tragedy",
+        "author": "Hamlet of Denmark",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+
+      },  
+      {
+        "id": "samp-02",
+        "title":"Man vs Nature",
+        "sub_title": "Why Nature is Murder",
+        "author": "Captain Ahab",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+
+      },  
+      {
+        "id": "samp-3",
+        "title":"Man vs Fate",
+        "sub_title": "Why you can't kill your grandfather",
+        "author": "Phillip J Fry",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+
+      },  
+      {
+        "id": "samp-4",
+        "title":"Man vs Supernatural",
+        "sub_title": "On How to kill the Undead",
+        "author": "Buffy Summers",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-5",
+        "title":"Man vs Technology",
+        "sub_title": "How AI will destroy the world",
+        "author": "Sarah Connor",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-6",
+        "title":"Man vs Zombie",
+        "sub_title": "How to Protect Yourself",
+        "author": "Ash Williams",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-7",
+        "title":"Man vs Bug",
+        "sub_title": "Effectiveness of various pesticides",
+        "author": "Demetrian Titus",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-8",
+        "title":"Man vs Puppet",
+        "sub_title": "Raising a real boy",
+        "author": "Gepetto",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+
+      },  
+      {
+        "id": "samp-9",
+        "title":"Man vs Crime",
+        "sub_title": "Terror as a tool of Crime Prevention",
+        "author": "Bruce Wayne",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-10",
+        "title":"Man vs Bear",
+        "sub_title": "The effects of radical Kindness",
+        "author": "Paddington",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-11",
+        "title":"Man vs Game Master",
+        "sub_title": "What not to eat in a dungeon",
+        "author": "Laios Touden",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-12",
+        "title":"Man vs Turtle",
+        "sub_title": "Organizing a Ninja Uprising",
+        "author": "The Shredder",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-13",
+        "title":"Man vs House",
+        "sub_title": "Bridging intergenerational divides",
+        "author": "Mirabel Madrigal",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      },  
+      {
+        "id": "samp-14",
+        "title":"Man vs Throne",
+        "sub_title": "Avoiding food poisoning",
+        "author": "Emperor Kuzco",
+        "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia laudantium officiis assumenda expedita modi consequatur necessitatibus eius molestias mollitia vero eveniet ipsa quia, ipsam blanditiis! Eum sapiente veritatis commodi? Ipsum blanditiis ipsam quibusdam quo rerum numquam! Ipsa distinctio enim repellendus reiciendis! Quod inventore explicabo quibusdam maiores? Dolor, ab rerum. Quo."
+      }  
+    ]
+}

@@ -26,6 +26,7 @@
 
   <script src="scripts/navigation.js" defer=""></script>
   <script src="scripts/date.js" defer=""></script>
+  <script src="scripts/browse.js" defer=""></script>
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     <ul>
       <li><a href="index.html">Index</a></li>
       <li><a href="generate.html">Generate</a></li>
-      <li class="current-nav" ><a href="browse.html">Browse</a></li>
+      <li class="current-nav"><a href="browse.html">Browse</a></li>
     </ul>
   </nav>
   <main>
@@ -47,67 +48,37 @@
       <p>Optional domain name: rpg-gen.com</p>
       <p>This site provides generators for pre-formatted handouts for use in a TTRPG campaign.</p>
     </div>
-    <section>
-      <h2>Examples</h2>
-      <ul>
-        <li>How can I show the goings on in my world in a flavorful, in-universe way? Via a newspaper page!</li>
-        <li>How can I show acquirable items of merchandise to my players in a flavorful, in-universe way? Via a
-          catalogue page!</li>
-      </ul>
-    </section>
-    <section>
+    <section id="">
       <h2>Formatting</h2>
-      <h3>Colors</h3>
-      <ul>
-        <li>Light #FFFFFF - For Background of text</li>
-        <li>Grey - #a0a0a0 - for secondary backgrounds</li>
-        <li>Dark - #000000 - for final background and text</li>
-        <li>Indigo - #4000FF - Dark Accents</li>
-        <li>Crimson - #FF0040 - Light Accent</li>
-      </ul>
-      <h3>Typography</h3>
-      <p>Open Sans - Used for all cases.</p>
-      <p>The specific generators may use other fonts as needed for the final documents.</p>
-    </section>
-    <section id="plan-wireframes">
-      <h2>Wireframes</h2>
-      <img src="images/wireframe-home.webp" alt="Home Page Wireframe" width="280" height="140">
-      <img src="images/wireframe-form.webp" alt="Form Wireframe" width="280" height="140">
-      <img src="images/wireframe-doc.webp" alt="Output Wireframe" width="280" height="140">
-      <img src="images/wireframe-mobile.webp" alt="Mobile Wireframe" width="280" height="140">
-    </section>
-    <form action="browse.html" method="get" onsubmit="return saveEntry()">
-        <fieldset class="form-article">
+      <form action="final.html" method="get" onsubmit="return verifySelection()">
+        <fieldset id="form-newspaper">
           <legend>Article Entry</legend>
-          <label>Article Title
-            <input type="text" name="article-title" placeholder="Title..." title="Your Article's Title"
-              required></label>
-          <label>Article Sub-title
-            <input type="text" name="article-sub-title" placeholder="Sub-Title..." title="Your Article's Sub-Title"
-              required></label>
-          <label>Article Authorship
-            <input type="text" name="article-author" placeholder="Author-name..." title="Your Article's Title"
-              required></label>
-          <label>Article Content
-            <textarea type="text" name="article-content" placeholder="Article Content" title="Your Article's Content"
-              required></textarea></label>
-          <input hidden type="number" name="id-number" id="id-number">
+          <label>Sheet Layout
+            <select name="select-layout" id="select-layout" required>
+              <option value="0" disabled selected>Choose a page layout</option>
+              <option value="1">1 Article Layout</option>
+              <option value="15">15 Article Layout</option>
+            </select>
+          </label> 
+          <fieldset id="form-articles">
+            <legend>Selected Articles x/15</legend>
+          </fieldset>
+          <button type="submit" id="button-preview">Create Layout</button>
         </fieldset>
-        <button type="button" id="button-preview">Preview Entry</button>
-        <button type="submit" id="button-preview">Save Entry</button>
       </form>
+    </section>
   </main>
   <footer>
     <div class="social">
       <ul>
-        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" alt="github" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" alt="wordpress" width="44" height="44"
-              class="svg"></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="youtube" width="44" height="44"
-              class="svg"></a></li>
+        <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="44"
+              height="44" class="svg"></a></li>
+        <li><a href="https://www.github.com" target="_blank"><img src="images/github.svg" alt="github" width="44"
+              height="44" class="svg"></a></li>
+        <li><a href="https://www.wordpress.com" target="_blank"><img src="images/wordpress.svg" alt="wordpress"
+              width="44" height="44" class="svg"></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="youtube" width="44"
+              height="44" class="svg"></a></li>
       </ul>
     </div>
     <p><span id="currentyear"></span> | J Austin Hutchinson | UT, USA</p>
@@ -116,3 +87,4 @@
 </body>
 
 </html>
+

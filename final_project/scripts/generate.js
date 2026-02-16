@@ -30,7 +30,7 @@ function saveEntry() {
     let new_entry = {
         "id": id,
         "title": title.value,
-        "sub-title": sub_title.value,
+        "sub_title": sub_title.value,
         "author": author.value,
         "content": content.value
     }
@@ -40,7 +40,6 @@ function saveEntry() {
 
     // alter form to pass only the ID number to Browse page
 
-    alert("pause");
     return true;
 }
 

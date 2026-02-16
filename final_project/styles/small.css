@@ -208,3 +208,92 @@ a:hover{
 a:visited{
     color: var(--accent-2);
 }
+
+
+/* generate page form */
+#form-gen label{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0.25rem;
+}
+#form-gen input, #form-gen textarea{
+    width: 100%;
+    padding: 0.25rem;
+}
+/* modal basic */
+
+dialog {
+    padding: 0.25rem;
+    background-color: var(--light);
+    color: var(--light-text);
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 320px;
+    min-height: 4rem;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / 75%);
+}
+#modal-close {
+    border-radius: 50%;
+    border: 1px solid var(--accent-1);
+    background-color: var(--light);
+    color: var(--dark);
+    text-align: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+
+}
+#modal-close:hover {
+    border-color: var(--accent-2);
+    background-color: var(--dark);
+    color: var(--light);
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    margin: 0.25rem;
+}
+
+#form-newspaper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#form-articles{
+    display: flex;
+    flex-direction: column;
+    grid-column: span 2;
+}
+legend{
+    padding: 0.25rem;
+}
+
+#form-newspaper button{
+    grid-column: span 2;
+    margin: 0.25rem;
+}
+
+#article-layout article{
+    border: 1px solid var(--accent-1);
+    margin: 0.25rem 0;
+    padding: 0.25rem;
+}
+
+#article-layout{
+    display: flex;
+    flex-direction: column;
+}
+
+article h4{
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
